@@ -1,0 +1,23 @@
+{
+    "background": "#161925",
+    "black": "#697388",
+    "blue": "#7CB7FF",
+    "brightBlack": "#697388",
+    "brightBlue": "#7CB7FF",
+    "brightCyan": "#00C1E4",
+    "brightGreen": "#71F79F",
+    "brightPurple": "#C74DED",
+    "brightRed": "#ED254E",
+    "brightWhite": "#DCDFE4",
+    "brightYellow": "#F9DC5C",
+    "cursorColor": "#C3C7C8",
+    "cyan": "#00C1E4",
+    "foreground": "#C3C7C8",
+    "green": "#71F79F",
+    "name": "Sweet",
+    "purple": "#C74DED",
+    "red": "#ED254E",
+    "selectionBackground": "#BD93F9",
+    "white": "#DCDFE4",
+    "yellow": "#F9DC5C"
+}

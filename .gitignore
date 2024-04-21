@@ -1,0 +1,13 @@
+# *
+
+!*/
+!.gitignore
+!LICENSE
+
+!*.md
+!*.toml
+!*.conf
+!*.json
+!*.jsonc
+!*.rasi
+!*.css
