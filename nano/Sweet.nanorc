@@ -1,0 +1,11 @@
+set titlecolor bold,#dde,#c4e
+set promptcolor #dde,#678
+set statuscolor bold,#dde,#7f9
+set errorcolor bold,#dde,#e24
+set spotlightcolor #678,#fd5
+set selectedcolor #dde,#c4e
+set stripecolor ,#fd5
+set scrollercolor #7bf
+set numbercolor #0ce
+set keycolor #0ce
+set functioncolor #7f9

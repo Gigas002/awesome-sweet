@@ -29,18 +29,19 @@ At the moment, this repo contains following themes/instructions:
 
 - Compositors: `hyprland`
 - Launch menus: `rofi`, `tofi`, `anyrun`
-- Terminal-related: `kitty`, `alacritty`, `windows-terminal`
+- Terminal-related: `kitty`, `alacritty`, `windows-terminal`, `foot`, `zellij`
 - Bars: `waybar`
 - DM/Greeters: `regreet`
 - Notifications?: `dunst`
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
+- Image viewers: `oculante`
 
 ## Contributing
 
 ### I know nothing about theming
 
-Hey, me no designer too!
+Hey, me no designer either!
 
 You can try out looking at already implemented examples and do trial-and-error until you're happy with the results. I also recommend installing [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) vs code plugin, so you can see your colors right in text editor.
 
