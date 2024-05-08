@@ -20,7 +20,7 @@ This is the list of stuff in the official `Sweet` theme repositories:
 - [SDDM](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
 - Icons: [candy-icons](https://github.com/EliverLara/candy-icons), [sweet-folders](https://github.com/EliverLara/Sweet-folders), [beautyline alternative](https://gitlab.com/garuda-linux/themes-and-settings/artwork/beautyline)
 - [Firefox](https://github.com/EliverLara/firefox-sweet-theme)
-- VSCode (*should also work with VSCodium*): [colors](https://github.com/EliverLara/sweet-vscode), [icons](https://github.com/EliverLara/sweet-vscode-icons)
+- VSCode (*works with VSCodium*): [colors](https://github.com/EliverLara/sweet-vscode), [icons](https://github.com/EliverLara/sweet-vscode-icons)
 - [Wallpapers](https://github.com/EliverLara/Sweet/tree/nova/extras/Sweet-Wallpapers)
 
 ### This repo
