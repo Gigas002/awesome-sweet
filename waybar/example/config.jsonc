@@ -1,6 +1,5 @@
 {
-// sourced from header module //
-
+    // metadata
     "layer": "top",
     "position": "top",
     "mod": "dock",
@@ -8,69 +7,74 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-
-
-// positions generated based on config.ctl //
-
-	"modules-left": ["custom/padd","custom/l_end","custom/power","custom/r_end","custom/l_end","hyprland/workspaces","wlr/taskbar","mpris","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","hyprland/window","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/cliphist","hyprland/language","backlight","network","bluetooth","wireplumber","custom/r_end","custom/l_end","tray","battery","clock","custom/r_end","custom/padd"],
-
-
-// sourced from modules based on config.ctl //
-
-    "custom/power": {
+    // layout
+    "modules-left": [
+        "custom/padd",
+        "custom/l_end",
+        "custom/wleave",
+        "custom/r_end",
+        "custom/l_end",
+        "hyprland/workspaces",
+        "wlr/taskbar",
+        "mpris",
+        "custom/r_end",
+        "custom/padd"
+    ],
+    "modules-center": [
+        "custom/padd",
+        "custom/l_end",
+        "hyprland/window",
+        "custom/r_end",
+        "custom/padd"
+    ],
+    "modules-right": [
+        "custom/padd",
+        "custom/l_end",
+        "custom/cliphist",
+        "hyprland/language",
+        "backlight",
+        "network",
+        "bluetooth",
+        "wireplumber",
+        "custom/r_end",
+        "custom/l_end",
+        "tray",
+        "battery",
+        "clock",
+        "custom/r_end",
+        "custom/padd"
+    ],
+    // modules
+    "custom/wleave": {
         "format": "{}",
-        "rotate": 0,
         "exec": "echo ; echo  logout",
         "on-click": "wleave -b 2 -c 0 -r 0 -p layer-shell",
-        "interval" : 86400, // once every day
-        "tooltip": true
+        "interval": 86400
     },
-
     "hyprland/workspaces": {
-        "disable-scroll": true,
-        "rotate": 0,
         "all-outputs": true,
-        "active-only": false,
-        "on-click": "activate",
-        "persistent-workspaces": {
-        }
+        "on-click": "activate"
     },
-
-	"wlr/taskbar": {
-		"format": "{icon}",
-		"rotate": 0,
-		"icon-size": 21,
-		"icon-theme": "Sweet-Rainbow",
-        "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-		"app_ids-mapping": {
-			"firefoxdeveloperedition": "firefox-developer-edition"
-		}
-	},
-
+    "wlr/taskbar": {
+        "icon-size": 21,
+        "icon-theme": "Sweet-Rainbow",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
     "mpris": {
         "format": "{player_icon} {dynamic}",
-        "rotate": 0,
         "format-paused": "{status_icon} <i>{dynamic}</i>",
-        "player-icons": { 
+        "player-icons": {
             "default": "▶",
             "mpv": "🎵"
         },
         "status-icons": {
             "paused": "⏸"
         },
-        // "ignored-players": ["firefox"]
-        "max-length": 1000,
         "interval": 1
     },
-
     "hyprland/window": {
-        "format": "  {}",
-        "rotate": 0,
+        "format": " {}",
         "separate-outputs": true,
         "rewrite": {
             "(.*) — Mozilla Firefox": "$1 󰈹",
@@ -78,78 +82,87 @@
             "(.*) - Visual Studio Codium": "$1 󰨞",
             "(.*)Visual Studio Codium": "VSCodium 󰨞",
             "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
             "(.*)Steam": "Steam 󰓓"
-        },
-        "max-length": 1000
+        }
     },
-
     "custom/cliphist": {
         "format": "{}",
-        "rotate": 0,
         "exec": "echo ; echo 󰅇 clipboard history",
-        "on-click": "sleep 0.1 && /home/gigas002/.config/hypr/cliphist.sh",
+        "on-click": "sleep 0.1 && cliphist.sh",
         "on-click-right": "sleep 0.1 && cliphist wipe",
-        "interval" : 86400, // once every day
+        "interval": 86400,
         "tooltip": true
     },
-
     "hyprland/language": {
-        "format": "{short} {variant}",
-        "rotate": 0
+        "format": "{short} {variant}"
     },
-
     "backlight": {
         "device": "intel_backlight",
-        "rotate": 0,
         "format": "{icon} {percent}%",
-        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
         "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-",
-        "min-length": 6
+        "on-scroll-down": "brightnessctl set 1%-"
     },
-
     "network": {
-        "tooltip": true,
         "format-wifi": " ",
-        "rotate": 0,
         "format-ethernet": "󰈀 ",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
-        "interval": 2,
+        "interval": 2
     },
-
     "bluetooth": {
         "format": "",
-        "rotate": 0,
         "format-disabled": "",
         "format-connected": " {num_connections}",
         "format-connected-battery": "{icon} {num_connections}",
-        // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
-        "format-icons": ["󰥇", "󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥈"],
-        // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device If this config option is not defined or none of the devices in the list are connected, it will fall back to showing the last connected device.
+        "format-icons": [
+            "󰥇",
+            "󰤾",
+            "󰤿",
+            "󰥀",
+            "󰥁",
+            "󰥂",
+            "󰥃",
+            "󰥄",
+            "󰥅",
+            "󰥆",
+            "󰥈"
+        ],
         "tooltip-format": "{controller_alias}\n{num_connections} connected",
         "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%"
     },
-
     "wireplumber": {
         "format": "{icon} {volume}",
         "format-muted": "婢",
         "on-click": "pavucontrol -t 3",
-        "format-icons": ["", "", ""],
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ],
         "tooltip-format": "{icon} {desc} // {volume}%"
     },
     "tray": {
         "icon-size": 21,
-        "rotate": 0,
         "spacing": 5
     },
-
     "battery": {
         "states": {
             "good": 95,
@@ -157,22 +170,27 @@
             "critical": 20
         },
         "format": "{icon} {capacity}%",
-        "rotate": 0,
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
-        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+        "format-icons": [
+            "󰂎",
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
     },
-
     "clock": {
-        "format": "{:%H:%M}",
-        "rotate": 0,
         "format-alt": "{:%d.%m.%y}",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
-            "mode": "month",
-            "mode-mon-col": 3,
-            "on-scroll": 1,
             "on-click-right": "mode",
             "format": {
                 "months": "<span color='#f9dc5c'><b>{}</b></span>",
@@ -189,51 +207,20 @@
             "on-scroll-down": "shift_down"
         }
     },
-
-
-// modules for padding //
-
+    // padding
     "custom/l_end": {
         "format": " ",
-        "interval" : "once",
+        "interval": "once",
         "tooltip": false
     },
-
     "custom/r_end": {
         "format": " ",
-        "interval" : "once",
+        "interval": "once",
         "tooltip": false
     },
-
-    "custom/sl_end": {
-        "format": " ",
-        "interval" : "once",
-        "tooltip": false
-    },
-
-    "custom/sr_end": {
-        "format": " ",
-        "interval" : "once",
-        "tooltip": false
-    },
-
-    "custom/rl_end": {
-        "format": " ",
-        "interval" : "once",
-        "tooltip": false
-    },
-
-    "custom/rr_end": {
-        "format": " ",
-        "interval" : "once",
-        "tooltip": false
-    },
-
     "custom/padd": {
         "format": "  ",
-        "interval" : "once",
+        "interval": "once",
         "tooltip": false
     }
-
 }
-

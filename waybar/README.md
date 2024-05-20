@@ -1,10 +1,8 @@
 # Sweet-Waybar
 
-TODO: link to example
-
 Sweet theme for [waybar](https://github.com/Alexays/Waybar)
 
-This color scheme usage depends on your overall waybar's `style` and only defines colors. See [this]() style for a complete example
+This color scheme usage depends on your overall waybar's `style` and only defines colors. See example directory for a complete example
 
 ## Requriments
 
