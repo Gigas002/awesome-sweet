@@ -14,7 +14,7 @@ This is the list of stuff in the official `Sweet` theme repositories:
 
 - GNOME and overall [GTK](https://github.com/EliverLara/Sweet) (2, 3, 4) theming
 - KDE theming: [src 1](https://github.com/EliverLara/Sweet/tree/nova/kde), [src 2](https://github.com/EliverLara/Sweet-kde)
-- [cursors](https://github.com/EliverLara/Sweet/tree/nova/kde/cursors)
+- [cursors](https://github.com/EliverLara/Sweet/tree/nova/kde/cursors), also see [aur/sweet-cursors-hyprcursor-git/PKGBUILD](https://github.com/Gigas002/awesome-sweet/blob/master/aur/sweet-cursors-hyprcursor-git/PKGBUILD) to see how to build [hyprcursors](https://github.com/hyprwm/hyprcursor) from these files
 - [Kvantum](https://github.com/EliverLara/Sweet/tree/nova/kde/Kvantum)
 - [konsole](https://github.com/EliverLara/Sweet/tree/nova/kde/konsole)
 - [SDDM](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
@@ -32,7 +32,7 @@ At the moment, this repo contains following themes/instructions:
 - Terminal-related: `kitty`, `alacritty`, `windows-terminal`, `foot`, `zellij`
 - Bars: `waybar`
 - DM/Greeters: `regreet`
-- Notifications?: `dunst`
+- Notifications: `dunst`
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
 - Image viewers: `oculante`
