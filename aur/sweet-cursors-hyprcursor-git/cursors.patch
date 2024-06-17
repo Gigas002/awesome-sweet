@@ -77,7 +77,7 @@ index 0000000..5c7d24b
 +echo "COMPLETE!"
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/alias/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/alias/meta.hl
 new file mode 100644
-index 0000000..f976a4a
+index 0000000..6332563
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/alias/meta.hl
 @@ -0,0 +1,10 @@
@@ -85,7 +85,7 @@ index 0000000..f976a4a
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, alias.svg, 50
++define_size = 0, alias.svg
 +
 +define_override = a2a266d0498c3104214a47bd64ab0fc8
 +define_override = 3085a0e285430894940527032f8b26df
@@ -93,7 +93,7 @@ index 0000000..f976a4a
 +define_override = link
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/all-scroll/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/all-scroll/meta.hl
 new file mode 100644
-index 0000000..58b530d
+index 0000000..b649170
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/all-scroll/meta.hl
 @@ -0,0 +1,5 @@
@@ -101,10 +101,10 @@ index 0000000..58b530d
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, all-scroll.svg, 50
++define_size = 0, all-scroll.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/bottom_left_corner/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/bottom_left_corner/meta.hl
 new file mode 100644
-index 0000000..a2b8ba9
+index 0000000..c2d4154
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/bottom_left_corner/meta.hl
 @@ -0,0 +1,5 @@
@@ -112,10 +112,10 @@ index 0000000..a2b8ba9
 +hotspot_x = 0.17
 +hotspot_y = 1.08
 +
-+define_size = 64, bottom_left_corner.svg, 50
++define_size = 0, bottom_left_corner.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/bottom_right_corner/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/bottom_right_corner/meta.hl
 new file mode 100644
-index 0000000..18b2c56
+index 0000000..de285c3
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/bottom_right_corner/meta.hl
 @@ -0,0 +1,5 @@
@@ -123,10 +123,10 @@ index 0000000..18b2c56
 +hotspot_x = 1.08
 +hotspot_y = 1.08
 +
-+define_size = 64, bottom_right_corner.svg, 50
++define_size = 0, bottom_right_corner.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/bottom_side/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/bottom_side/meta.hl
 new file mode 100644
-index 0000000..cae5a0c
+index 0000000..e652cfe
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/bottom_side/meta.hl
 @@ -0,0 +1,5 @@
@@ -134,10 +134,10 @@ index 0000000..cae5a0c
 +hotspot_x = 0.67
 +hotspot_y = 1.17
 +
-+define_size = 64, bottom_side.svg, 50
++define_size = 0, bottom_side.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/cell/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/cell/meta.hl
 new file mode 100644
-index 0000000..4580ef7
+index 0000000..11e9757
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/cell/meta.hl
 @@ -0,0 +1,7 @@
@@ -145,12 +145,12 @@ index 0000000..4580ef7
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, cell.svg, 50
++define_size = 0, cell.svg
 +
 +define_override = plus
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/center_ptr/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/center_ptr/meta.hl
 new file mode 100644
-index 0000000..6f4d521
+index 0000000..4e025b3
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/center_ptr/meta.hl
 @@ -0,0 +1,5 @@
@@ -158,10 +158,10 @@ index 0000000..6f4d521
 +hotspot_x = 0.83
 +hotspot_y = 0.17
 +
-+define_size = 64, center_ptr.svg, 50
++define_size = 0, center_ptr.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/col-resize/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/col-resize/meta.hl
 new file mode 100644
-index 0000000..b79a83e
+index 0000000..81aba59
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/col-resize/meta.hl
 @@ -0,0 +1,7 @@
@@ -169,12 +169,12 @@ index 0000000..b79a83e
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, col-resize.svg, 50
++define_size = 0, col-resize.svg
 +
 +define_override = split_h
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/color-picker/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/color-picker/meta.hl
 new file mode 100644
-index 0000000..3eb2031
+index 0000000..be7de73
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/color-picker/meta.hl
 @@ -0,0 +1,5 @@
@@ -182,10 +182,10 @@ index 0000000..3eb2031
 +hotspot_x = 0.17
 +hotspot_y = 1.21
 +
-+define_size = 64, color-picker.svg, 50
++define_size = 0, color-picker.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/context-menu/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/context-menu/meta.hl
 new file mode 100644
-index 0000000..1884235
+index 0000000..c1b5a25
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/context-menu/meta.hl
 @@ -0,0 +1,5 @@
@@ -193,10 +193,10 @@ index 0000000..1884235
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, context-menu.svg, 50
++define_size = 0, context-menu.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/copy/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/copy/meta.hl
 new file mode 100644
-index 0000000..0ba2a85
+index 0000000..55286aa
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/copy/meta.hl
 @@ -0,0 +1,10 @@
@@ -204,7 +204,7 @@ index 0000000..0ba2a85
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, copy.svg, 50
++define_size = 0, copy.svg
 +
 +define_override = 6407b0e94181790501fd1e167b474872
 +define_override = b66166c04f8c3109214a4fbd64a50fc8
@@ -212,7 +212,7 @@ index 0000000..0ba2a85
 +define_override = dnd-copy
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/crosshair/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/crosshair/meta.hl
 new file mode 100644
-index 0000000..617b90c
+index 0000000..64468eb
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/crosshair/meta.hl
 @@ -0,0 +1,7 @@
@@ -220,12 +220,12 @@ index 0000000..617b90c
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, crosshair.svg, 50
++define_size = 0, crosshair.svg
 +
 +define_override = cross
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/default/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/default/meta.hl
 new file mode 100644
-index 0000000..ebe9917
+index 0000000..0c0ab5a
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/default/meta.hl
 @@ -0,0 +1,12 @@
@@ -233,7 +233,7 @@ index 0000000..ebe9917
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, default.svg, 50
++define_size = 0, default.svg
 +
 +define_override = left_ptr
 +define_override = top_left_arrow
@@ -243,7 +243,7 @@ index 0000000..ebe9917
 +define_override = size-hor
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/dnd-move/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/dnd-move/meta.hl
 new file mode 100644
-index 0000000..e2ac1bd
+index 0000000..ff5929a
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/dnd-move/meta.hl
 @@ -0,0 +1,13 @@
@@ -251,7 +251,7 @@ index 0000000..e2ac1bd
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, dnd-move.svg, 50
++define_size = 0, dnd-move.svg
 +
 +define_override = fcf21c00b30f7e3f83fe0dfd12e71cff
 +define_override = 4498f0e0c1937ffe01fd06f973665830
@@ -262,7 +262,7 @@ index 0000000..e2ac1bd
 +define_override = closedhand
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/dnd-no-drop/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/dnd-no-drop/meta.hl
 new file mode 100644
-index 0000000..b3c0661
+index 0000000..abfb018
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/dnd-no-drop/meta.hl
 @@ -0,0 +1,5 @@
@@ -270,10 +270,10 @@ index 0000000..b3c0661
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, dnd-no-drop.svg, 50
++define_size = 0, dnd-no-drop.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/down-arrow/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/down-arrow/meta.hl
 new file mode 100644
-index 0000000..2078057
+index 0000000..f3668b9
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/down-arrow/meta.hl
 @@ -0,0 +1,5 @@
@@ -281,10 +281,10 @@ index 0000000..2078057
 +hotspot_x = 0.67
 +hotspot_y = 1.17
 +
-+define_size = 64, down-arrow.svg, 50
++define_size = 0, down-arrow.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/draft/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/draft/meta.hl
 new file mode 100644
-index 0000000..88cb45e
+index 0000000..1a8d56e
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/draft/meta.hl
 @@ -0,0 +1,5 @@
@@ -292,10 +292,10 @@ index 0000000..88cb45e
 +hotspot_x = 0.17
 +hotspot_y = 1.21
 +
-+define_size = 64, draft.svg, 50
++define_size = 0, draft.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/fleur/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/fleur/meta.hl
 new file mode 100644
-index 0000000..b90bf9f
+index 0000000..cc74f02
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/fleur/meta.hl
 @@ -0,0 +1,7 @@
@@ -303,12 +303,12 @@ index 0000000..b90bf9f
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, fleur.svg, 50
++define_size = 0, fleur.svg
 +
 +define_override = size_all
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/help/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/help/meta.hl
 new file mode 100644
-index 0000000..8be9a69
+index 0000000..077574d
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/help/meta.hl
 @@ -0,0 +1,11 @@
@@ -316,7 +316,7 @@ index 0000000..8be9a69
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, help.svg, 50
++define_size = 0, help.svg
 +
 +define_override = question_arrow
 +define_override = d9ce0ab605698f320427677b458ad60b
@@ -325,7 +325,7 @@ index 0000000..8be9a69
 +define_override = left_ptr_help
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/left-arrow/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/left-arrow/meta.hl
 new file mode 100644
-index 0000000..dafa411
+index 0000000..eeb4f5c
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/left-arrow/meta.hl
 @@ -0,0 +1,5 @@
@@ -333,10 +333,10 @@ index 0000000..dafa411
 +hotspot_x = 0.17
 +hotspot_y = 0.67
 +
-+define_size = 64, left-arrow.svg, 50
++define_size = 0, left-arrow.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/left_side/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/left_side/meta.hl
 new file mode 100644
-index 0000000..d7d5653
+index 0000000..158f191
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/left_side/meta.hl
 @@ -0,0 +1,5 @@
@@ -344,10 +344,10 @@ index 0000000..d7d5653
 +hotspot_x = 0.17
 +hotspot_y = 0.67
 +
-+define_size = 64, left_side.svg, 50
++define_size = 0, left_side.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/no-drop/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/no-drop/meta.hl
 new file mode 100644
-index 0000000..08718f6
+index 0000000..a6d84ed
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/no-drop/meta.hl
 @@ -0,0 +1,7 @@
@@ -355,12 +355,12 @@ index 0000000..08718f6
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, no-drop.svg, 50
++define_size = 0, no-drop.svg
 +
 +define_override = forbidden
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/not-allowed/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/not-allowed/meta.hl
 new file mode 100644
-index 0000000..791d866
+index 0000000..3087717
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/not-allowed/meta.hl
 @@ -0,0 +1,9 @@
@@ -368,14 +368,14 @@ index 0000000..791d866
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, not-allowed.svg, 50
++define_size = 0, not-allowed.svg
 +
 +define_override = circle
 +define_override = 03b6e0fcb3499374a867c041f52298f0
 +define_override = crossed_circle
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/openhand/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/openhand/meta.hl
 new file mode 100644
-index 0000000..3f3dc83
+index 0000000..fb939bb
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/openhand/meta.hl
 @@ -0,0 +1,7 @@
@@ -383,12 +383,12 @@ index 0000000..3f3dc83
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, openhand.svg, 50
++define_size = 0, openhand.svg
 +
 +define_override = grab
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/pencil/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/pencil/meta.hl
 new file mode 100644
-index 0000000..3366105
+index 0000000..bbcb175
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/pencil/meta.hl
 @@ -0,0 +1,5 @@
@@ -396,10 +396,10 @@ index 0000000..3366105
 +hotspot_x = 0.17
 +hotspot_y = 1.21
 +
-+define_size = 64, pencil.svg, 50
++define_size = 0, pencil.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/pirate/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/pirate/meta.hl
 new file mode 100644
-index 0000000..f9be24d
+index 0000000..27e3f08
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/pirate/meta.hl
 @@ -0,0 +1,5 @@
@@ -407,10 +407,10 @@ index 0000000..f9be24d
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, pirate.svg, 50
++define_size = 0, pirate.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/pointer/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/pointer/meta.hl
 new file mode 100644
-index 0000000..63e5d1f
+index 0000000..df6c194
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/pointer/meta.hl
 @@ -0,0 +1,11 @@
@@ -418,7 +418,7 @@ index 0000000..63e5d1f
 +hotspot_x = 0.67
 +hotspot_y = 0.17
 +
-+define_size = 64, pointer.svg, 50
++define_size = 0, pointer.svg
 +
 +define_override = hand2
 +define_override = hand1
@@ -427,7 +427,7 @@ index 0000000..63e5d1f
 +define_override = 9d800788f1b08800ae810202380a0822
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/progress/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/progress/meta.hl
 new file mode 100644
-index 0000000..a7f8d9c
+index 0000000..8ad0a1e
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/progress/meta.hl
 @@ -0,0 +1,33 @@
@@ -435,38 +435,38 @@ index 0000000..a7f8d9c
 +hotspot_x = 0.17
 +hotspot_y = 0.17
 +
-+define_size = 64, progress-01.svg, 30
-+define_size = 64, progress-02.svg, 30
-+define_size = 64, progress-03.svg, 30
-+define_size = 64, progress-04.svg, 30
-+define_size = 64, progress-05.svg, 30
-+define_size = 64, progress-06.svg, 30
-+define_size = 64, progress-07.svg, 30
-+define_size = 64, progress-08.svg, 30
-+define_size = 64, progress-09.svg, 30
-+define_size = 64, progress-10.svg, 30
-+define_size = 64, progress-11.svg, 30
-+define_size = 64, progress-12.svg, 30
-+define_size = 64, progress-13.svg, 30
-+define_size = 64, progress-14.svg, 30
-+define_size = 64, progress-15.svg, 30
-+define_size = 64, progress-16.svg, 30
-+define_size = 64, progress-17.svg, 30
-+define_size = 64, progress-18.svg, 30
-+define_size = 64, progress-19.svg, 30
-+define_size = 64, progress-20.svg, 30
-+define_size = 64, progress-21.svg, 30
-+define_size = 64, progress-22.svg, 30
-+define_size = 64, progress-23.svg, 30
++define_size = 0, progress-01.svg, 30
++define_size = 0, progress-02.svg, 30
++define_size = 0, progress-03.svg, 30
++define_size = 0, progress-04.svg, 30
++define_size = 0, progress-05.svg, 30
++define_size = 0, progress-06.svg, 30
++define_size = 0, progress-07.svg, 30
++define_size = 0, progress-08.svg, 30
++define_size = 0, progress-09.svg, 30
++define_size = 0, progress-10.svg, 30
++define_size = 0, progress-11.svg, 30
++define_size = 0, progress-12.svg, 30
++define_size = 0, progress-13.svg, 30
++define_size = 0, progress-14.svg, 30
++define_size = 0, progress-15.svg, 30
++define_size = 0, progress-16.svg, 30
++define_size = 0, progress-17.svg, 30
++define_size = 0, progress-18.svg, 30
++define_size = 0, progress-19.svg, 30
++define_size = 0, progress-20.svg, 30
++define_size = 0, progress-21.svg, 30
++define_size = 0, progress-22.svg, 30
++define_size = 0, progress-23.svg, 30
 +
 +define_override = half-busy
 +define_override = 00000000000000020006000e7e9ffc3f
-+define_override = 08e8e1c95fe2fc01f976f1e063a64ccd
-+define_override = 3ecb610c1bf6410f44200f48c40d3599
++define_override = 08e8e1c95fe2fc01f976f1e063a0ccd
++define_override = 3ecb610c1bf010f44200f48c40d3599
 +define_override = left_ptr_watch
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/right-arrow/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/right-arrow/meta.hl
 new file mode 100644
-index 0000000..e8cb135
+index 0000000..40a2a8e
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/right-arrow/meta.hl
 @@ -0,0 +1,5 @@
@@ -474,10 +474,10 @@ index 0000000..e8cb135
 +hotspot_x = 1.17
 +hotspot_y = 0.67
 +
-+define_size = 64, right-arrow.svg, 50
++define_size = 0, right-arrow.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/right_ptr/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/right_ptr/meta.hl
 new file mode 100644
-index 0000000..f8e82fe
+index 0000000..05cc669
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/right_ptr/meta.hl
 @@ -0,0 +1,5 @@
@@ -485,10 +485,10 @@ index 0000000..f8e82fe
 +hotspot_x = 1.17
 +hotspot_y = 0.17
 +
-+define_size = 64, right_ptr.svg, 50
++define_size = 0, right_ptr.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/right_side/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/right_side/meta.hl
 new file mode 100644
-index 0000000..45b1a4b
+index 0000000..b36d3b6
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/right_side/meta.hl
 @@ -0,0 +1,5 @@
@@ -496,10 +496,10 @@ index 0000000..45b1a4b
 +hotspot_x = 1.17
 +hotspot_y = 0.67
 +
-+define_size = 64, right_side.svg, 50
++define_size = 0, right_side.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/row-resize/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/row-resize/meta.hl
 new file mode 100644
-index 0000000..bc47e31
+index 0000000..dc70b21
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/row-resize/meta.hl
 @@ -0,0 +1,7 @@
@@ -507,12 +507,12 @@ index 0000000..bc47e31
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, row-resize.svg, 50
++define_size = 0, row-resize.svg
 +
 +define_override = split_v
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/size_bdiag/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/size_bdiag/meta.hl
 new file mode 100644
-index 0000000..b1f0323
+index 0000000..eacf4c5
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/size_bdiag/meta.hl
 @@ -0,0 +1,9 @@
@@ -520,14 +520,14 @@ index 0000000..b1f0323
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, size_bdiag.svg, 50
++define_size = 0, size_bdiag.svg
 +
 +define_override = sw-resize
 +define_override = nesw-resize
 +define_override = ne-resize
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/size_fdiag/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/size_fdiag/meta.hl
 new file mode 100644
-index 0000000..535881d
+index 0000000..e1b4a46
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/size_fdiag/meta.hl
 @@ -0,0 +1,9 @@
@@ -535,14 +535,14 @@ index 0000000..535881d
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, size_fdiag.svg, 50
++define_size = 0, size_fdiag.svg
 +
 +define_override = se-resize
 +define_override = nw-resize
 +define_override = nwse-resize
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/size_hor/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/size_hor/meta.hl
 new file mode 100644
-index 0000000..968db05
+index 0000000..7f6e2fb
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/size_hor/meta.hl
 @@ -0,0 +1,11 @@
@@ -550,7 +550,7 @@ index 0000000..968db05
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, size_hor.svg, 50
++define_size = 0, size_hor.svg
 +
 +define_override = sb_h_double_arrow
 +define_override = w-resize
@@ -559,7 +559,7 @@ index 0000000..968db05
 +define_override = ew-resize
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/size_ver/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/size_ver/meta.hl
 new file mode 100644
-index 0000000..54e6ae7
+index 0000000..102954c
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/size_ver/meta.hl
 @@ -0,0 +1,12 @@
@@ -567,7 +567,7 @@ index 0000000..54e6ae7
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, size_ver.svg, 50
++define_size = 0, size_ver.svg
 +
 +define_override = s-resize
 +define_override = ns-resize
@@ -577,7 +577,7 @@ index 0000000..54e6ae7
 +define_override = v_double_arrow
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/text/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/text/meta.hl
 new file mode 100644
-index 0000000..d9e400a
+index 0000000..4f04f4b
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/text/meta.hl
 @@ -0,0 +1,8 @@
@@ -585,13 +585,13 @@ index 0000000..d9e400a
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, text.svg, 50
++define_size = 0, text.svg
 +
 +define_override = ibeam
 +define_override = xterm
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/top_left_corner/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/top_left_corner/meta.hl
 new file mode 100644
-index 0000000..d0c861c
+index 0000000..4884749
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/top_left_corner/meta.hl
 @@ -0,0 +1,5 @@
@@ -599,10 +599,10 @@ index 0000000..d0c861c
 +hotspot_x = 0.21
 +hotspot_y = 0.17
 +
-+define_size = 64, top_left_corner.svg, 50
++define_size = 0, top_left_corner.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/top_right_corner/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/top_right_corner/meta.hl
 new file mode 100644
-index 0000000..f72d12c
+index 0000000..7d671ce
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/top_right_corner/meta.hl
 @@ -0,0 +1,5 @@
@@ -610,10 +610,10 @@ index 0000000..f72d12c
 +hotspot_x = 1.08
 +hotspot_y = 0.17
 +
-+define_size = 64, top_right_corner.svg, 50
++define_size = 0, top_right_corner.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/top_side/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/top_side/meta.hl
 new file mode 100644
-index 0000000..2feab0e
+index 0000000..06ccb1c
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/top_side/meta.hl
 @@ -0,0 +1,5 @@
@@ -621,10 +621,10 @@ index 0000000..2feab0e
 +hotspot_x = 0.67
 +hotspot_y = 0.17
 +
-+define_size = 64, top_side.svg, 50
++define_size = 0, top_side.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/up-arrow/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/up-arrow/meta.hl
 new file mode 100644
-index 0000000..fe299c0
+index 0000000..8720f1f
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/up-arrow/meta.hl
 @@ -0,0 +1,5 @@
@@ -632,10 +632,10 @@ index 0000000..fe299c0
 +hotspot_x = 0.67
 +hotspot_y = 0.17
 +
-+define_size = 64, up-arrow.svg, 50
++define_size = 0, up-arrow.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/vertical-text/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/vertical-text/meta.hl
 new file mode 100644
-index 0000000..7aa1a5a
+index 0000000..849419d
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/vertical-text/meta.hl
 @@ -0,0 +1,5 @@
@@ -643,10 +643,10 @@ index 0000000..7aa1a5a
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, vertical-text.svg, 50
++define_size = 0, vertical-text.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/wait/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/wait/meta.hl
 new file mode 100644
-index 0000000..8da39aa
+index 0000000..789558e
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/wait/meta.hl
 @@ -0,0 +1,29 @@
@@ -654,34 +654,34 @@ index 0000000..8da39aa
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, wait-01.svg, 30
-+define_size = 64, wait-02.svg, 30
-+define_size = 64, wait-03.svg, 30
-+define_size = 64, wait-04.svg, 30
-+define_size = 64, wait-05.svg, 30
-+define_size = 64, wait-06.svg, 30
-+define_size = 64, wait-07.svg, 30
-+define_size = 64, wait-08.svg, 30
-+define_size = 64, wait-09.svg, 30
-+define_size = 64, wait-10.svg, 30
-+define_size = 64, wait-11.svg, 30
-+define_size = 64, wait-12.svg, 30
-+define_size = 64, wait-13.svg, 30
-+define_size = 64, wait-14.svg, 30
-+define_size = 64, wait-15.svg, 30
-+define_size = 64, wait-16.svg, 30
-+define_size = 64, wait-17.svg, 30
-+define_size = 64, wait-18.svg, 30
-+define_size = 64, wait-19.svg, 30
-+define_size = 64, wait-20.svg, 30
-+define_size = 64, wait-21.svg, 30
-+define_size = 64, wait-22.svg, 30
-+define_size = 64, wait-23.svg, 30
++define_size = 0, wait-01.svg, 30
++define_size = 0, wait-02.svg, 30
++define_size = 0, wait-03.svg, 30
++define_size = 0, wait-04.svg, 30
++define_size = 0, wait-05.svg, 30
++define_size = 0, wait-06.svg, 30
++define_size = 0, wait-07.svg, 30
++define_size = 0, wait-08.svg, 30
++define_size = 0, wait-09.svg, 30
++define_size = 0, wait-10.svg, 30
++define_size = 0, wait-11.svg, 30
++define_size = 0, wait-12.svg, 30
++define_size = 0, wait-13.svg, 30
++define_size = 0, wait-14.svg, 30
++define_size = 0, wait-15.svg, 30
++define_size = 0, wait-16.svg, 30
++define_size = 0, wait-17.svg, 30
++define_size = 0, wait-18.svg, 30
++define_size = 0, wait-19.svg, 30
++define_size = 0, wait-20.svg, 30
++define_size = 0, wait-21.svg, 30
++define_size = 0, wait-22.svg, 30
++define_size = 0, wait-23.svg, 30
 +
 +define_override = watch
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/wayland-cursor/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/wayland-cursor/meta.hl
 new file mode 100644
-index 0000000..4c53ea4
+index 0000000..a60068b
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/wayland-cursor/meta.hl
 @@ -0,0 +1,5 @@
@@ -689,10 +689,10 @@ index 0000000..4c53ea4
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, wayland-cursor.svg, 50
++define_size = 0, wayland-cursor.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/x-cursor/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/x-cursor/meta.hl
 new file mode 100644
-index 0000000..b40e9d8
+index 0000000..ad3bedf
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/x-cursor/meta.hl
 @@ -0,0 +1,5 @@
@@ -700,10 +700,10 @@ index 0000000..b40e9d8
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, x-cursor.svg, 50
++define_size = 0, x-cursor.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/zoom-in/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/zoom-in/meta.hl
 new file mode 100644
-index 0000000..1b20069
+index 0000000..7c5aee5
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/zoom-in/meta.hl
 @@ -0,0 +1,5 @@
@@ -711,10 +711,10 @@ index 0000000..1b20069
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, zoom-in.svg, 50
++define_size = 0, zoom-in.svg
 diff --git a/kde/cursors/build_hyprcursors/hyprcursors/zoom-out/meta.hl b/kde/cursors/build_hyprcursors/hyprcursors/zoom-out/meta.hl
 new file mode 100644
-index 0000000..5c23936
+index 0000000..ba77107
 --- /dev/null
 +++ b/kde/cursors/build_hyprcursors/hyprcursors/zoom-out/meta.hl
 @@ -0,0 +1,5 @@
@@ -722,7 +722,7 @@ index 0000000..5c23936
 +hotspot_x = 0.67
 +hotspot_y = 0.67
 +
-+define_size = 64, zoom-out.svg, 50
++define_size = 0, zoom-out.svg
 diff --git a/kde/cursors/build_hyprcursors/manifest.toml b/kde/cursors/build_hyprcursors/manifest.toml
 new file mode 100644
 index 0000000..dc19771
