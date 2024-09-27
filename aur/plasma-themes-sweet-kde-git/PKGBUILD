@@ -1,0 +1,70 @@
+# Maintainer: gigas002 <gigas002@pm.me>
+
+pkgname=plasma-themes-sweet-kde-git
+_pkgname=Sweet-kde
+pkgver=r33.c68fc41
+pkgrel=1
+pkgdesc="Sweet KDE Plasma theme"
+arch=('x86_64')
+url="https://github.com/Gigas002/$_pkgname"
+license=('GPL-3.0-or-later')
+makedepends=(
+    'git'
+    # TODO: cursor only
+    'inkscape'
+    'xorg-xcursorgen'
+)
+depends=(
+    # TODO: kvantum theme only
+    'kvantum'
+    
+    'candy-icons-git'
+)
+optdepends=(
+    'sweet-folders-icons-git: sweet folder icons'
+    'cantarell-fonts: tertiary font face defined'
+    'beautyline: alternative icons set'
+)
+conflicts=(
+    'plasma5-themes-sweet-kde-git'
+    'plasma5-themes-sweet-full-git'
+)
+options=('!strip')
+source=("git+$url.git#branch=plasma-6-migration")
+sha256sums=('SKIP')
+
+pkgver() {
+	cd "$srcdir/$_pkgname"
+  	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+build() {
+    # TODO: cursors only
+	cd "$srcdir/$_pkgname/cursors"
+    chmod +x build.sh
+    ./build.sh
+}
+
+package() {
+    install -d "$pkgdir/usr/share"
+
+    # KDE Plasma components
+    cp -R "$srcdir/$_pkgname/aurorae" "$pkgdir/usr/share/aurorae"
+    cp -R "$srcdir/$_pkgname/color-schemes" "$pkgdir/usr/share/color-schemes"
+
+	# look-and-feel and desktoptheme
+    cp -R "$srcdir/$_pkgname/plasma" "$pkgdir/usr/share/plasma"
+
+	# konsole
+    cp -R "$srcdir/$_pkgname/konsole" "$pkgdir/usr/share/konsole"
+    
+	# sddm
+	cp -R "$srcdir/$_pkgname/sddm" "$pkgdir/usr/share/sddm"
+
+    # cursors
+    install -d "$pkgdir/usr/share/icons"
+    cp -R "$srcdir/$_pkgname/cursors/Sweet-cursors" "$pkgdir/usr/share/icons/Sweet-cursors"
+
+    # kvantum
+    cp -R "$srcdir/$_pkgname/Kvantum" "$pkgdir/usr/share/Kvantum"
+}
