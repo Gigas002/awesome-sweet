@@ -2,7 +2,7 @@
 
 pkgname=plasma-themes-sweet-kde-git
 _pkgname=Sweet-kde
-pkgver=r33.c68fc41
+pkgver=r47.2ed3782
 pkgrel=1
 pkgdesc="Sweet KDE Plasma theme"
 arch=('x86_64')
@@ -10,9 +10,6 @@ url="https://github.com/Gigas002/$_pkgname"
 license=('GPL-3.0-or-later')
 makedepends=(
     'git'
-    # TODO: cursor only
-    'inkscape'
-    'xorg-xcursorgen'
 )
 depends=(
     # TODO: kvantum theme only
@@ -24,6 +21,9 @@ optdepends=(
     'sweet-folders-icons-git: sweet folder icons'
     'cantarell-fonts: tertiary font face defined'
     'beautyline: alternative icons set'
+    # TODO: cursors and kvantum
+    'sweet-cursors-git'
+    # 'sweet-kvantum-git'
 )
 conflicts=(
     'plasma5-themes-sweet-kde-git'
@@ -36,13 +36,6 @@ sha256sums=('SKIP')
 pkgver() {
 	cd "$srcdir/$_pkgname"
   	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
-}
-
-build() {
-    # TODO: cursors only
-	cd "$srcdir/$_pkgname/cursors"
-    chmod +x build.sh
-    ./build.sh
 }
 
 package() {
@@ -60,10 +53,6 @@ package() {
     
 	# sddm
 	cp -R "$srcdir/$_pkgname/sddm" "$pkgdir/usr/share/sddm"
-
-    # cursors
-    install -d "$pkgdir/usr/share/icons"
-    cp -R "$srcdir/$_pkgname/cursors/Sweet-cursors" "$pkgdir/usr/share/icons/Sweet-cursors"
 
     # kvantum
     cp -R "$srcdir/$_pkgname/Kvantum" "$pkgdir/usr/share/Kvantum"

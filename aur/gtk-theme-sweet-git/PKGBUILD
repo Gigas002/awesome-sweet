@@ -3,7 +3,7 @@
 
 pkgname=gtk-theme-sweet-git
 _pkgname=Sweet
-pkgver=r288.5f4741d
+pkgver=r306.de001f0
 pkgrel=1
 pkgdesc="Sweet KDE Plasma theme"
 arch=('x86_64')
