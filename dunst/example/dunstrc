@@ -24,16 +24,16 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = (300, 300)
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = (0, 300)
 
     # Position the notification in the top right corner
     origin = top-right
 
     # Offset from the origin
-    offset = 20x20
+    offset = (20, 20)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -440,3 +440,21 @@
 [Type-2]
     appname = "t2"
     format = "<span size="250%">%s</span>\n%b"
+
+[urgency_critical]
+    background = "#161925"
+    foreground = "#c3c7c8"
+    frame_color = "#ed254e"
+    timeout = 0
+
+[urgency_low]
+    background = "#161925"
+    foreground = "#c3c7c8"
+    frame_color = "#00c1e4"
+    timeout = 5
+
+[urgency_normal]
+    background = "#161925"
+    foreground = "#c3c7c8"
+    frame_color = "#c74ded"
+    timeout = 5
