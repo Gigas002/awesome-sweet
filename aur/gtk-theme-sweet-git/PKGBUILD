@@ -3,7 +3,7 @@
 
 pkgname=gtk-theme-sweet-git
 _pkgname=Sweet
-pkgver=r288.5f4741d
+pkgver=r405.ee0e459
 pkgrel=1
 pkgdesc="Sweet KDE Plasma theme"
 arch=('x86_64')
@@ -26,7 +26,7 @@ conflicts=(
     'sweet-theme-git'
 )
 options=('!strip')
-source=("git+$url.git")
+source=("git+$url.git#branch=nova")
 sha256sums=('SKIP')
 
 pkgver() {

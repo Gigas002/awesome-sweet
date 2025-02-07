@@ -1,0 +1,11 @@
+palette = 'Sweet'
+
+[palettes.Sweet]
+black = '#697388'
+blue = '#7cb7ff'
+cyan = '#00c1e4'
+green = '#71f79f'
+magenta = '#c74ded'
+red = '#ed254e'
+white = '#dcdfe4'
+yellow = '#f9dc5c'
