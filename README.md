@@ -13,7 +13,7 @@ Let's create a unified place for all our `Sweet` applications!
 This is the list of stuff in the official `Sweet` theme repositories:
 
 - [GNOME/GTK](https://github.com/EliverLara/Sweet) (2, 3, 4) theming
-- KDE theming: [src 1](https://github.com/EliverLara/Sweet/tree/nova/kde), [src 2](https://github.com/EliverLara/Sweet-kde)
+- KDE: [src 1](https://github.com/EliverLara/Sweet/tree/nova/kde), [src 2](https://github.com/EliverLara/Sweet-kde)
 - [cursors](https://github.com/EliverLara/Sweet/tree/nova/kde/cursors)
 - [Kvantum](https://github.com/EliverLara/Sweet/tree/nova/kde/Kvantum)
 - [konsole](https://github.com/EliverLara/Sweet/tree/nova/kde/konsole)
@@ -36,7 +36,7 @@ At the moment, this repo contains following themes/instructions:
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
 - Image viewers: `oculante`
-- Editors: `nano`, `micro` (wip), `zed` (planned?)
+- Editors: `nano`, `micro` (wip), `zed` (planned?), `helix` (planned?)
 
 ### PKGBUILDs
 

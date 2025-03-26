@@ -29,4 +29,6 @@ theme_name = "Sweet"
 
 ## Showcase
 
-TODO: screenshot
+<!-- TODO: screenshot -->
+
+![](assets/screenshot.png)

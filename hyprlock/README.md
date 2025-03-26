@@ -1,7 +1,5 @@
 # Sweet-Hyprlock
 
-*WIP: I'm not sure how can the colors be separated from hyprlock config, when I'll figure this out I'll update this example*
-
 Sweet theme for [hyprlock](https://github.com/hyprwm/hyprlock/)
 
 ## Requriments
@@ -10,8 +8,10 @@ Sweet theme for [hyprlock](https://github.com/hyprwm/hyprlock/)
 
 ## Installation
 
-*WIP: I'm not sure how can the colors be separated from hyprlock config, when I'll figure this out I'll update this example*
+Copy `Sweet.conf` file contents into `~/.config/hypr/hyprlock.conf`
 
 ## Showcase
+
+<!-- TODO: screenshot -->
 
 ![](assets/screenshot.png)

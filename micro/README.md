@@ -1,6 +1,6 @@
 # Sweet-Micro
 
-This is WIP and currently just a copy of catppuccin-mocha
+This is WIP and currently just a copy of `catppuccin-mocha` with transparency
 
 Instruction on how to use `Sweet` theme with [micro](https://github.com/zyedidia/micro)
 
@@ -16,6 +16,6 @@ Copy the `Sweet.micro` file into `~/.config/micro/colorschemes/Sweet.micro`. The
 
 ## Showcase
 
-WIP
+<!-- TODO: screenshot -->
 
 ![](assets/screenshot.png)

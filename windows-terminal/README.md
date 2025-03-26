@@ -16,4 +16,6 @@ Finaly, select the color scheme in the `Appearence` menu for you shell `Profiles
 
 ## Showcase
 
-TODO: screenshot
+<!-- TODO: screenshot -->
+
+![](assets/screenshot.png)
