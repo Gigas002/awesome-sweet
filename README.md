@@ -28,7 +28,7 @@ This is the list of stuff in the official `Sweet` theme repositories:
 At the moment, this repo contains following themes/instructions:
 
 - Compositors: `hyprland`
-- Launch menus: `rofi`, `tofi`, `anyrun`, `onagre`
+- Launch menus: `rofi`, `tofi`, `anyrun`, `onagre`, `kickoff`
 - Terminal-related: `kitty`, `alacritty`, `windows-terminal`, `foot`, `zellij`, `oh-my-posh`, `starship`, `yazi`
 - Bars: `waybar`, `ashell`
 - DM/Greeters: `regreet`

@@ -1,0 +1,7 @@
+[colors]
+# color format: rgb or rgba, if transparency is desired
+background = '#000000bb'
+prompt = '#f9dc5cff'
+text = '#c3c7c8ff' 
+text_query = '#00c1e4ff'
+text_selected = '#bd93f9ff'
