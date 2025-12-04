@@ -36,7 +36,11 @@ At the moment, this repo contains following themes/instructions:
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
 - Image viewers: `oculante`
-- Editors: `nano`, `micro` (wip), `zed` (planned?), `helix` (planned?)
+- Editors: `nano`, `micro` (wip), `helix` (wip)
+
+### Other community efforts
+
+- [zed](https://zed-themes.com/themes/uoI4UhbiWof1tc3lPtuH9): install it into `~/.config/zed/themes`
 
 ### PKGBUILDs
 
