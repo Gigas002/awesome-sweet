@@ -1,44 +1,45 @@
-# This is catppuccin-mocha copy
+# Sweet theme for micro
+# Based on EliverLara's Sweet VSCode theme
 
-# color-link default "#C6D0F5,#1E1E2E"
-color-link comment "#585B70"
+# color-link default "#FFFFFF,#1E1E2E"
+color-link comment "#66667A"
 
-color-link identifier "#89B4FA"
-color-link identifier.class "#89B4FA"
-color-link identifier.var "#89B4FA"
+color-link identifier "#06c993"
+color-link identifier.class "#00dded"
+color-link identifier.var "#06c993"
 
-color-link constant "#FAB387"
-color-link constant.number "#FAB387"
-color-link constant.string "#A6E3A1"
+color-link constant "#ec89cb"
+color-link constant.number "#ec89cb"
+color-link constant.string "#9700be"
 
-color-link symbol "#F5C2E7"
-color-link symbol.brackets "#F2CDCD"
-color-link symbol.tag "#89B4FA"
+color-link symbol "#ec89cb"
+color-link symbol.brackets "#555569"
+color-link symbol.tag "#f60055"
 
-color-link type "#89B4FA"
-color-link type.keyword "#F9E2AF"
+color-link type "#00dded"
+color-link type.keyword "#efdc35"
 
-color-link special "#F5C2E7"
-color-link statement "#CBA6F7"
-color-link preproc "#F5C2E7"
+color-link special "#ec89cb"
+color-link statement "#f60055"
+color-link preproc "#ec89cb"
 
-color-link underlined "#89DCEB"
-color-link error "bold #F38BA8"
-color-link todo "bold #F9E2AF"
+color-link underlined "#00dded"
+color-link error "bold #f60055"
+color-link todo "bold #efdc35"
 
-color-link diff-added "#A6E3A1"
-color-link diff-modified "#F9E2AF"
-color-link diff-deleted "#F38BA8"
+color-link diff-added "#06c993"
+color-link diff-modified "#f69154"
+color-link diff-deleted "#f60055"
 
-color-link gutter-error "#F38BA8"
-color-link gutter-warning "#F9E2AF"
+color-link gutter-error "#f60055"
+color-link gutter-warning "#f69154"
 
-color-link statusline "#F5E0DC,#181825"
-color-link tabbar "#F5E0DC,#181825"
-color-link indent-char "#45475A"
-color-link line-number "#45475A"
-color-link current-line-number "#B4BEFE"
+color-link statusline "#9BBEC7,#1b1b2a"
+color-link tabbar "#9BBEC7,#1b1b2a"
+color-link indent-char "#3A3A4C"
+color-link line-number "#3A3A4C"
+color-link current-line-number "#efdc35"
 
-color-link cursor-line "#313244,#C6D0F5"
-color-link color-column "#313244"
+color-link cursor-line "#222235,#FFFFFF"
+color-link color-column "#222235"
 color-link type.extended "default"
