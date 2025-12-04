@@ -1,2 +1,167 @@
-inherits = "catppuccin_mocha"
+# Syntax highlighting
+# -------------------
+"attribute" = "cyan"
+
+"type" = "cyan"
+"type.enum.variant" = "cyan"
+
+"constructor" = "green"
+
+"constant" = "pink"
+"constant.character" = "pink"
+"constant.character.escape" = "pink"
+
+"string" = "purple"
+"string.regexp" = "pink"
+"string.special" = "orange"
+"string.special.symbol" = "orange"
+
+"comment" = { fg = "overlay2", modifiers = ["italic"] }
+
+"variable" = "text"
+"variable.parameter" = { fg = "orange", modifiers = ["italic"] }
+"variable.builtin" = "red"
+"variable.other.member" = "yellow"
+
+"label" = "green" # used for lifetimes
+
+"punctuation" = "subtext0"
+"punctuation.special" = "cyan"
+
+"keyword" = "red"
+"keyword.control.conditional" = { fg = "red", modifiers = ["italic"] }
+
+"operator" = "red"
+
+"function" = "green"
+"function.macro" = "pink"
+
+"tag" = "red"
+
+"namespace" = { fg = "text", modifiers = ["italic"] }
+
+"special" = "cyan" # fuzzy highlight
+
+"markup.heading.1" = "red"
+"markup.heading.2" = "orange"
+"markup.heading.3" = "yellow"
+"markup.heading.4" = "green"
+"markup.heading.5" = "cyan"
+"markup.heading.6" = "purple"
+"markup.list" = "cyan"
+"markup.list.unchecked" = "overlay2"
+"markup.list.checked" = "green"
+"markup.bold" = { fg = "red", modifiers = ["bold"] }
+"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.link.url" = { fg = "green", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "purple"
+"markup.link.label" = "green"
+"markup.raw" = "orange"
+"markup.quote" = "pink"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "orange"
+
+# User Interface
+# --------------
 "ui.background" = {}
+
+"ui.linenr" = { fg = "surface2" }
+"ui.linenr.selected" = { fg = "yellow" }
+
+"ui.statusline" = { fg = "subtext1", bg = "mantle" }
+"ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
+"ui.statusline.normal" = { fg = "base", bg = "pink", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "base", bg = "purple", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "text", bg = "surface0" }
+"ui.window" = { fg = "crust" }
+"ui.help" = { fg = "overlay2", bg = "surface0" }
+
+"ui.bufferline" = { fg = "subtext0", bg = "mantle" }
+"ui.bufferline.active" = { fg = "purple", bg = "base", underline = { color = "purple", style = "line" } }
+"ui.bufferline.background" = { bg = "crust" }
+
+"ui.text" = "text"
+"ui.text.focus" = { fg = "text", bg = "surface0", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "overlay1" }
+"ui.text.directory" = { fg = "cyan" }
+
+"ui.virtual" = "overlay0"
+"ui.virtual.ruler" = { bg = "surface0" }
+"ui.virtual.indent-guide" = "surface0"
+"ui.virtual.inlay-hint" = { fg = "surface1", bg = "mantle" }
+"ui.virtual.jump-label" = { fg = "pink", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "surface1" }
+
+"ui.cursor" = { fg = "base", bg = "secondary_cursor" }
+"ui.cursor.primary" = { fg = "base", bg = "pink" }
+"ui.cursor.match" = { fg = "orange", modifiers = ["bold"] }
+
+"ui.cursor.primary.normal" = { fg = "base", bg = "pink" }
+"ui.cursor.primary.insert" = { fg = "base", bg = "green" }
+"ui.cursor.primary.select" = { fg = "base", bg = "purple" }
+
+"ui.cursor.normal" = { fg = "base", bg = "secondary_cursor_normal" }
+"ui.cursor.insert" = { fg = "base", bg = "secondary_cursor_insert" }
+"ui.cursor.select" = { fg = "base", bg = "secondary_cursor_select" }
+
+"ui.cursorline.primary" = { bg = "cursorline" }
+
+"ui.highlight" = { bg = "surface1", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "overlay2", bg = "surface0" }
+"ui.menu.selected" = { fg = "text", bg = "surface1", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
+"diagnostic.info" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "pink", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+error = "red"
+warning = "orange"
+info = "cyan"
+hint = "pink"
+
+rainbow = ["red", "orange", "yellow", "green", "cyan", "purple"]
+
+[palette]
+# Sweet accent colors
+pink = "#ec89cb"
+purple = "#9700be"
+red = "#f60055"
+orange = "#f69154"
+yellow = "#efdc35"
+green = "#06c993"
+cyan = "#00dded"
+
+# Text colors
+text = "#ffffff"
+subtext1 = "#9BBEC7"
+subtext0 = "#838391"
+
+# Overlay colors (muted)
+overlay2 = "#66667A"
+overlay1 = "#555569"
+overlay0 = "#3F3F54"
+
+# Surface colors
+surface2 = "#3A3A4C"
+surface1 = "#2B2B42"
+surface0 = "#222235"
+
+# Background colors
+base = "#1e1e2e"
+mantle = "#1b1b2a"
+crust = "#191925"
+
+# Cursor colors
+cursorline = "#2a2b3c"
+secondary_cursor = "#b5a6a8"
+secondary_cursor_select = "#6c4d75"
+secondary_cursor_normal = "#b5a6a8"
+secondary_cursor_insert = "#047a5a"
