@@ -36,7 +36,7 @@ At the moment, this repo contains following themes/instructions:
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
 - Image viewers: `oculante`
-- Editors: `nano`, `micro` (wip), `helix` (wip)
+- Editors: `nano`, `micro`, `helix`
 
 ### Other community efforts
 
