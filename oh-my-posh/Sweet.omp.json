@@ -52,35 +52,35 @@
           {
             "style": "plain",
             "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
-            "foreground": "#348cba",
+            "foreground": "#7cb7ff",
             "background": "transparent",
             "type": "python"
           },
           {
             "style": "plain",
             "template": "\ue738 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-            "foreground": "#e77d1a",
+            "foreground": "#ff6a00",
             "background": "transparent",
             "type": "java"
           },
           {
             "style": "plain",
             "template": "\ue77f {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }}",
-            "foreground": "#19aa14",
+            "foreground": "#c74ded",
             "background": "transparent",
             "type": "dotnet"
           },
           {
             "style": "plain",
             "template": "\ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-            "foreground": "#06aad5",
+            "foreground": "#00c1e4",
             "background": "transparent",
             "type": "go"
           },
           {
             "style": "plain",
             "template": "\ue7a8 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}  ",
-            "foreground": "#925837",
+            "foreground": "#ed254e",
             "background": "transparent",
             "type": "rust"
           },
