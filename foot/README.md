@@ -2,7 +2,7 @@
 
 Sweet theme for [foot](https://codeberg.org/dnkl/foot)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
