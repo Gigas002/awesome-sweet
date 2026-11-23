@@ -2,15 +2,13 @@
 
 Sweet theme for [dunst](https://github.com/dunst-project/dunst)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
 ## Installation
 
-I'm not aware if you can split and import theme/configuration files with `dunst`, so for now instructions are following:
-
-Copy or replace conflicting values from `Sweet` theme file into your `~/.config/dunst/dunstrc`
+dunst reads drop-in files after `dunstrc`, so copy the theme file to `~/.config/dunst/dunstrc.d/Sweet.conf`. Or copy its sections into your `~/.config/dunst/dunstrc`
 
 ## Showcase
 
