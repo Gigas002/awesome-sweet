@@ -2,7 +2,7 @@
 
 Sweet theme for [oculante](https://github.com/woelper/oculante)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
