@@ -21,11 +21,11 @@
 "variable" = "text"
 "variable.parameter" = { fg = "orange", modifiers = ["italic"] }
 "variable.builtin" = "red"
-"variable.other.member" = "yellow"
+"variable.other.member" = "text"
 
 "label" = "green" # used for lifetimes
 
-"punctuation" = "subtext0"
+"punctuation" = "subtext1"
 "punctuation.special" = "cyan"
 
 "keyword" = "red"
@@ -38,26 +38,21 @@
 
 "tag" = "red"
 
-"namespace" = { fg = "text", modifiers = ["italic"] }
+"namespace" = "text"
 
 "special" = "cyan" # fuzzy highlight
 
-"markup.heading.1" = "red"
-"markup.heading.2" = "orange"
-"markup.heading.3" = "yellow"
-"markup.heading.4" = "green"
-"markup.heading.5" = "cyan"
-"markup.heading.6" = "purple"
+"markup.heading" = { fg = "purple", modifiers = ["bold"] }
 "markup.list" = "cyan"
 "markup.list.unchecked" = "overlay2"
 "markup.list.checked" = "green"
-"markup.bold" = { fg = "red", modifiers = ["bold"] }
-"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "green", modifiers = ["italic", "underlined"] }
 "markup.link.text" = "purple"
 "markup.link.label" = "green"
 "markup.raw" = "orange"
-"markup.quote" = "pink"
+"markup.quote" = { modifiers = ["italic"] }
 
 "diff.plus" = "green"
 "diff.minus" = "red"
@@ -127,10 +122,8 @@ warning = "orange"
 info = "cyan"
 hint = "pink"
 
-rainbow = ["red", "orange", "yellow", "green", "cyan", "purple"]
-
 [palette]
-# Sweet accent colors
+# Sweet accent colors, from the official Sweet VS Code theme (EliverLara/sweet-vscode)
 pink = "#ec89cb"
 purple = "#9700be"
 red = "#f60055"
