@@ -1,0 +1,28 @@
+[base]
+font_name = "NotoSans Nerd Font"
+font_size = 14
+# looked up in ~/.config/abar/themes
+theme = "Sweet.toml"
+
+[icons]
+prefer = "theme"
+
+[modules]
+custom = [
+    { name = "system_info", icon = "gnome-system-monitor", tooltip = "System monitor", on_left_click = "$TERMINAL -e btm" },
+    { name = "audio", icon = "pavucontrol", on_left_click = "pavucontrol" },
+    { name = "network", icon = "preferences-system-network", on_left_click = "nm-connection-editor" },
+    { name = "leave", icon = "system-log-out", submenu = [
+        { content = "logout", action = "loginctl terminate-session self" },
+        { content = "poweroff", action = "systemctl poweroff" },
+    ] },
+]
+
+[layout]
+left = ["system_info"]
+center = ["clock"]
+right = ["audio", "network", "leave"]
+
+[clock]
+formats = ["%R %d.%m.%Y"]
+on_left_click = "$TERMINAL -e calendar-tui"
