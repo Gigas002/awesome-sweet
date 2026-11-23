@@ -1,0 +1,37 @@
+# ~/.config/ashell/config.toml
+
+[modules]
+left = [ "SystemInfo", "Workspaces" ]
+center = [ "WindowTitle" ]
+right = [ "KeyboardLayout", [ "Tray", "Tempo", "Privacy", "Settings" ] ]
+
+[workspaces]
+visibility_mode = "MonitorSpecific"
+
+[tempo]
+clock_format = "%R %d.%m.%Y"
+
+[media_player]
+max_text_length = 100
+
+[settings]
+audio_sinks_more_cmd = "pavucontrol -t 3"
+audio_sources_more_cmd = "pavucontrol -t 4"
+wifi_more_cmd = "nm-connection-editor"
+vpn_more_cmd = "nm-connection-editor"
+bluetooth_more_cmd = "blueman-manager"
+
+# Sweet.toml
+[appearance]
+font_name = "NotoSans Nerd Font"
+primary_color = "#00c1e4"
+success_color = "#71f79f"
+warning_color = "#f9dc5c"
+danger_color = "#ed254e"
+text_color = "#c74ded"
+workspace_colors = [ "#00c1e4", "#c74ded" ]
+
+[appearance.background_color]
+base = "#161925"
+weak = "#1f2333"
+strong = "#282c34"

@@ -1,0 +1,14 @@
+# Sweet for ashell (0.5 and newer, TOML config)
+[appearance]
+font_name = "NotoSans Nerd Font"
+primary_color = "#00c1e4"
+success_color = "#71f79f"
+warning_color = "#f9dc5c"
+danger_color = "#ed254e"
+text_color = "#c74ded"
+workspace_colors = [ "#00c1e4", "#c74ded" ]
+
+[appearance.background_color]
+base = "#161925"
+weak = "#1f2333"
+strong = "#282c34"
