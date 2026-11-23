@@ -2,7 +2,7 @@
 
 Sweet theme for [zellij](https://github.com/zellij-org/zellij)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
