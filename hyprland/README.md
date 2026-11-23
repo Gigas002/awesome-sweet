@@ -4,19 +4,19 @@ Sweet theme for [hyprland](https://github.com/hyprwm/Hyprland)
 
 This theme introduces border coloring, and minor style effects for a `hyprland`. It also forces compositor to use `Sweet` GTK, cursors and icons theme
 
-If you want a more unified look of your qt applications, you should also use `qt5ct`, `qt6ct` and `kvantum` with combination of [Sweet Kvantum](https://github.com/EliverLara/Sweet/tree/nova/kde/Kvantum/Sweet) theme
+If you want a more unified look of your qt applications, you should also use [qt6ct](../qt6ct) and `kvantum` with the [Sweet Kvantum](https://github.com/Gigas002/Sweet-kvantum) theme
 
-## Requriments
+## Requirements
 
-- Sweet GTK theme ([aur](https://aur.archlinux.org/packages/plasma5-themes-sweet-full-git))
-- Sweet cursors theme ([aur](https://aur.archlinux.org/packages/plasma5-themes-sweet-full-git))
-- Sweet folder icons ([aur](https://aur.archlinux.org/packages/sweet-folders-icons-git))
+- Sweet GTK theme: [Sweet-gtk](https://github.com/Gigas002/Sweet-gtk) ([PKGBUILD](../PKGBUILDs/sweet-gtk-theme-git))
+- Sweet cursors: [Sweet-cursors](https://github.com/Gigas002/Sweet-cursors) ([PKGBUILD](../PKGBUILDs/sweet-cursors-git))
+- Sweet folder icons: [Sweet-folders](https://github.com/Gigas002/Sweet-folders) ([PKGBUILD](../PKGBUILDs/sweet-folders-git))
 
 **Optional**
 
 - Candy icons ([aur](https://aur.archlinux.org/packages/candy-icons-git))
 - Beautyline icons ([aur](https://aur.archlinux.org/packages/beautyline))
-- Sweet kvantum theme ([aur](https://aur.archlinux.org/packages/plasma5-themes-sweet-full-git))
+- Sweet Kvantum theme: [Sweet-kvantum](https://github.com/Gigas002/Sweet-kvantum) ([PKGBUILD](../PKGBUILDs/sweet-kvantum-git))
 
 ## Installation
 
