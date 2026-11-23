@@ -1,13 +1,12 @@
-# Sweet-Micro
+# Sweet-kickoff
 
-Instruction on how to use `Sweet` theme with [kickoff](https://github.com/j0ru/kickoff)
+Sweet colors for the [kickoff](https://github.com/j0ru/kickoff) launcher
 
 ## Installation
 
-Copy the `Sweet.micro` file contents into `~/.config/kickoff/config.toml`
+Copy the `[colors]` section of `Sweet.toml` into `~/.config/kickoff/config.toml`. For Sweet's font:
 
-## Showcase
-
-<!-- TODO: screenshot -->
-
-![](assets/screenshot.png)
+```toml
+font = 'NotoSans Nerd Font'
+font_size = 14.0
+```
