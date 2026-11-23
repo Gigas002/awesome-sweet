@@ -1,20 +1,14 @@
-# See https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+# See https://alacritty.org/config-alacritty.html
 
-# Themes:
-import = ["~/.config/alacritty/themes/cyberpunk.toml"]
-
-shell = "zsh"
+[general]
+import = ["~/.config/alacritty/themes/Sweet.toml"]
 
 [window]
-opacity = 0.3
+opacity = 0.65
 blur = true
-startup_mode = "Maximized"
 
 [font]
-normal = { family = "CaskaydiaMono Nerd Font Mono", style = "Regular" }
-bold = { family = "CaskaydiaMono Nerd Font Mono", style = "Bold" }
-italic = { family = "CaskaydiaMono Nerd Font Mono", style = "Italic" }
-bold_italic = { family = "CaskaydiaMono Nerd Font Mono", style = "Bold Italic" }
+normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
 size = 14.0
 
 [selection]
