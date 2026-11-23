@@ -27,33 +27,46 @@ This is the list of stuff in the official `Sweet` theme repositories:
 
 At the moment, this repo contains following themes/instructions:
 
-- Compositors: `hyprland`
-- Launch menus: `rofi`, `tofi`, `anyrun`, `onagre`, `kickoff`
-- Terminal-related: `kitty`, `alacritty`, `windows-terminal`, `foot`, `zellij`, `oh-my-posh`, `starship`, `yazi`
-- Bars: `waybar`, `ashell`
-- DM/Greeters: `regreet`
-- Notifications: `dunst`
+- Desktops/compositors: `cosmic`, `hyprland`, `niri`, `sway`
+- Launch menus: `rofi`, `tofi`, `tofi-rs`, `anyrun`, `onagre`, `kickoff`
+- Terminals: `alacritty`, `kitty`, `foot`, `windows-terminal`
+- Terminal apps: `zellij`, `yazi`, `bottom`, `calendar-tui`, `tgrs`, `concord`
+- Prompts: `starship`, `oh-my-posh`
+- Bars: `waybar`, `ashell`, `abar`
+- DM/Greeters: `regreet`, `ratgreet`, `tuigreet`
+- Notifications: `dunst`, `poshanka`
 - Lock screen: `swaylock`, `hyprlock`
 - Logout: `wlogout`, `wleave`
 - Image viewers: `oculante`
 - Editors: `nano`, `micro`, `helix`
+- Qt: `qt6ct`
+
+Fonts used across the themes: `CaskaydiaCove Nerd Font Mono 14` for terminals, `NotoSans Nerd Font 14` for everything else
 
 ### Other community efforts
 
 - [zed](https://zed-themes.com/themes/uoI4UhbiWof1tc3lPtuH9): install it into `~/.config/zed/themes`
 
+### Forks
+
+Maintained forks of the official themes, with fixes and Plasma 6 support:
+
+- [Sweet-gtk](https://github.com/Gigas002/Sweet-gtk): GTK 3, GTK 4 and GNOME Shell
+- [Sweet-kde](https://github.com/Gigas002/Sweet-kde): Plasma 6 color scheme, Plasma theme, window decorations and global theme
+- [Sweet-kvantum](https://github.com/Gigas002/Sweet-kvantum): Kvantum application style
+- [Sweet-cursors](https://github.com/Gigas002/Sweet-cursors): XCursor, KDE's scalable SVG cursors and hyprcursor
+- [Sweet-folders](https://github.com/Gigas002/Sweet-folders): folder icons
+
 ### PKGBUILDs
 
-These are the `PKGBUILD`s I use on my system. I don't think these are appropriate for everyone, so these are not in AUR
+These are the `PKGBUILD`s I use on my system, built from the forks above. I don't think these are appropriate for everyone, so these are not in AUR
 
-- sweet-cursors-git: based on my [cursors](https://github.com/Gigas002/Sweet/tree/cursors) branch for with minor improvements to cursor generating process. Also adds new `.svg` cursors for `plasma6`
-- sweet-cursors-hyprcursor-git: based on the same branch as `sweet-cursors-git`. Creates [hyprcursors](https://github.com/hyprwm/hyprcursor)
-- sweet-folders-git: based on official branch with [minor fix](https://github.com/EliverLara/Sweet-folders/pull/21) for dolphin
-- sweet-gtk-theme-git: based on official `nova` branch with no changes
-- sweet-kde-theme-git: based on my heavily [modified](https://github.com/Gigas002/Sweet-kde/tree/plasma-6-migration) version of `Sweet` and `Sweet-kde` repos, merged into one, containing only `kde`-related code, plus some `plasma6` migration stuff
-- sweet-konsole-git: based on same branch as `sweet-kde-theme-git`
-- sweet-kvantum-git: based on same branch as `sweet-kde-theme-git`
-- sweet-sddm-git: based on same branch as `sweet-kde-theme-git`
+- sweet-gtk-theme-git: [Sweet-gtk](https://github.com/Gigas002/Sweet-gtk), `master`
+- sweet-kde-theme-git: [Sweet-kde](https://github.com/Gigas002/Sweet-kde), `master`
+- sweet-kvantum-git: [Sweet-kvantum](https://github.com/Gigas002/Sweet-kvantum), `master`
+- sweet-cursors-git: [Sweet-cursors](https://github.com/Gigas002/Sweet-cursors), `master`; XCursor and KDE's SVG cursors
+- sweet-cursors-hyprcursor-git: [Sweet-cursors](https://github.com/Gigas002/Sweet-cursors), `master`; [hyprcursors](https://github.com/hyprwm/hyprcursor)
+- sweet-folders-git: [Sweet-folders](https://github.com/Gigas002/Sweet-folders), `master`
 
 ## Contributing
 
@@ -71,6 +84,6 @@ And that's great too! You can just provide the `README.md` file with instruction
 
 ### Rules
 
-You can add theme or instructions for ANY app you like. Just provide a simple `README.md` file with your PR please. Refer to `alacritty` or `hyprland` themes here for an example of desired `README` file structure. You can basically just copy it's contents and replace with your PR stuff.
+You can add theme or instructions for ANY app you like. Just provide a simple `README.md` file with your PR please. Refer to `alacritty` or `niri` themes here for an example of desired `README` file structure. You can basically just copy it's contents and replace with your PR stuff.
 
 Also, since original theme uses capitalized name `Sweet` (not `sweet` or `SWEET`, etc), please keep that formatting in your themes names. Sorry about that.
