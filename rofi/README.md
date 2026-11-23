@@ -2,9 +2,9 @@
 
 Sweet theme for [rofi](https://github.com/davatorium/rofi)/[lbonn-rofi](https://github.com/lbonn/rofi)
 
-## Requriments
+## Requirements
 
-- Sweet folder icons ([aur](https://aur.archlinux.org/packages/sweet-folders-icons-git))
+- Sweet folder icons: [Sweet-folders](https://github.com/Gigas002/Sweet-folders) ([PKGBUILD](../PKGBUILDs/sweet-folders-git))
 
 ## Installation
 
