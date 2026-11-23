@@ -1,0 +1,4 @@
+[calendar]
+week_start = "monday"
+show_week_numbers = true
+theme = "Sweet.toml"

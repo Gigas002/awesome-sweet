@@ -2,7 +2,7 @@
 
 Sweet theme for [hyprlock](https://github.com/hyprwm/hyprlock/)
 
-## Requriments
+## Requirements
 
 - Hyprland ([arch](https://archlinux.org/packages/extra/x86_64/hyprland/))
 
@@ -11,7 +11,5 @@ Sweet theme for [hyprlock](https://github.com/hyprwm/hyprlock/)
 Copy `Sweet.conf` file contents into `~/.config/hypr/hyprlock.conf`
 
 ## Showcase
-
-<!-- TODO: screenshot -->
 
 ![](assets/screenshot.png)

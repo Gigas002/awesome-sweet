@@ -2,7 +2,7 @@
 
 Sweet theme for [nano](https://git.savannah.gnu.org/cgit/nano.git)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 

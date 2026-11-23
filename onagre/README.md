@@ -4,7 +4,7 @@ Instruction on how to use `Sweet` theme with [onagre](https://github.com/onagre-
 
 The white background is an upstream bug for now, deal with it
 
-## Requriments
+## Requirements
 
 Sweet-Rainbow icons
 

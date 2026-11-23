@@ -123,7 +123,7 @@
 
     ### Text ###
 
-    font = JetBrainsMono Nerd Font 10
+    font = NotoSans Nerd Font 14
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -443,18 +443,18 @@
 
 [urgency_critical]
     background = "#161925"
-    foreground = "#c3c7c8"
+    foreground = "#c3c7d1"
     frame_color = "#ed254e"
     timeout = 0
 
 [urgency_low]
     background = "#161925"
-    foreground = "#c3c7c8"
+    foreground = "#c3c7d1"
     frame_color = "#00c1e4"
     timeout = 5
 
 [urgency_normal]
     background = "#161925"
-    foreground = "#c3c7c8"
+    foreground = "#c3c7d1"
     frame_color = "#c74ded"
     timeout = 5

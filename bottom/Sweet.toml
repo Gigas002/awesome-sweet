@@ -1,0 +1,43 @@
+# Sweet for bottom (btm). bottom has no theme files: paste this into ~/.config/bottom/bottom.toml
+
+[styles.cpu]
+all_entry_color = "#71f79f"
+avg_entry_color = "#ed254e"
+cpu_core_colors = ["#c74ded", "#00c1e4", "#71f79f", "#f9dc5c", "#7cb7ff", "#ed254e", "#ff6a00", "#00e8c6"]
+
+[styles.temp_graph]
+temp_graph_color_styles = ["#c74ded", "#00c1e4", "#71f79f", "#f9dc5c", "#7cb7ff", "#ed254e", "#ff6a00", "#00e8c6"]
+
+[styles.memory]
+ram_color = "#c74ded"
+cache_color = "#ed254e"
+swap_color = "#f9dc5c"
+arc_color = "#00c1e4"
+gpu_colors = ["#7cb7ff", "#ed254e", "#00c1e4", "#71f79f", "#c74ded", "#f9dc5c"]
+
+[styles.network]
+rx_color = "#c74ded"
+tx_color = "#f9dc5c"
+rx_total_color = "#00c1e4"
+tx_total_color = "#71f79f"
+
+[styles.battery]
+high_battery_color = "#71f79f"
+medium_battery_color = "#f9dc5c"
+low_battery_color = "#ed254e"
+
+[styles.tables]
+headers = { color = "#00c1e4", bold = true }
+
+[styles.graphs]
+graph_color = "#697388"
+legend_text = { color = "#c3c7d1" }
+
+[styles.widgets]
+border_color = "#697388"
+selected_border_color = "#c74ded"
+widget_title = { color = "#c3c7d1" }
+text = { color = "#c3c7d1" }
+selected_text = { color = "#fefefe", bg_color = "#c50ed2" }
+disabled_text = { color = "#5c6370" }
+thread_text = { color = "#71f79f" }

@@ -1,8 +1,12 @@
 # Sweet-Helix
 
-This is WIP and currently just a copy of `catppuccin-mocha` with transparency
+Sweet theme for [helix](https://github.com/helix-editor/helix) editor
 
-Instruction on how to use `Sweet` theme with [helix](https://github.com/helix-editor/helix)
+The colors are the official [Sweet VS Code theme](https://github.com/EliverLara/sweet-vscode)'s, mapped onto helix's scopes. The background is left to the terminal (`ui.background = {}`), so it shows your terminal's Sweet background and transparency
+
+## Requirements
+
+There's none, it's a color scheme
 
 ## Installation
 
@@ -12,8 +16,13 @@ Copy the `Sweet.toml` file into `~/.config/helix/themes/Sweet.toml`. Then, add t
 theme = "Sweet"
 ```
 
-## Showcase
+For the status line to change color with the mode, also set:
 
-<!-- TODO: screenshot -->
+```toml
+[editor]
+color-modes = true
+```
+
+## Showcase
 
 ![](assets/screenshot.png)

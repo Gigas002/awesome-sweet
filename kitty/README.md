@@ -2,7 +2,7 @@
 
 Sweet theme for [kitty](https://github.com/kovidgoyal/kitty) terminal emulator
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
@@ -10,7 +10,7 @@ There's none, it's a color scheme
 
 Copy theme file to your kitty config location, e.g. `~/.config/kitty/themes/Sweet.conf`
 
-Then, import your theme in config file, e.g. `~/.config/kitty/kitty.conf`, adding the line: `include Sweet.conf`
+Then, import your theme in config file, e.g. `~/.config/kitty/kitty.conf`, adding the line: `include themes/Sweet.conf`
 
 ## Showcase
 

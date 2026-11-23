@@ -2,10 +2,10 @@
 
 Instruction on how to use `Sweet` theme with [anyrun](https://github.com/anyrun-org/anyrun)
 
-## Requriments
+## Requirements
 
-- Sweet GTK theme ([aur](https://aur.archlinux.org/packages/plasma5-themes-sweet-full-git))
-- Sweet folder icons ([aur](https://aur.archlinux.org/packages/sweet-folders-icons-git))
+- Sweet GTK theme: [Sweet-gtk](https://github.com/Gigas002/Sweet-gtk) ([PKGBUILD](../PKGBUILDs/sweet-gtk-theme-git))
+- Sweet folder icons: [Sweet-folders](https://github.com/Gigas002/Sweet-folders) ([PKGBUILD](../PKGBUILDs/sweet-folders-git))
 
 ## Installation
 

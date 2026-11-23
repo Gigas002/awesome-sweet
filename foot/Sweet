@@ -2,11 +2,13 @@
 # Sweet
 
 [cursor]
-color=161925 c3c7c8 
+color=161925 c3c7d1
 
 [colors]
-background=161925 
-foreground=c3c7c8 
+background=161925
+foreground=c3c7d1
+selection-foreground=fefefe
+selection-background=c50ed2
 regular0=697388  # black
 regular1=ed254e  # red
 regular2=71f79f  # green
@@ -23,4 +25,4 @@ bright3=f9dc5c   # bright yellow
 bright4=7cb7ff   # bright blue
 bright5=c74ded   # bright magenta
 bright6=00c1e4   # bright cyan
-bright7=dcdfe4   # bright white
+bright7=ffffff   # bright white

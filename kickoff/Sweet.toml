@@ -1,7 +1,7 @@
 [colors]
 # color format: rgb or rgba, if transparency is desired
-background = '#000000bb'
+background = '#161925cc'
 prompt = '#f9dc5cff'
-text = '#c3c7c8ff' 
+text = '#c3c7d1ff'
 text_query = '#00c1e4ff'
-text_selected = '#bd93f9ff'
+text_selected = '#c74dedff'

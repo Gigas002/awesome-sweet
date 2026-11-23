@@ -2,7 +2,7 @@
 
 Sweet theme for [windows-terminal](https://github.com/microsoft/terminal) terminal emulator
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
@@ -12,10 +12,5 @@ First, open your `settings.json` file. It's location is [damn ugly](https://stac
 
 Then, add the theme json's contents to a `settings.json` file's `"schemes":` array. You'll see added color scheme in a `Settings` -> `Color schemes` menu in GUI
 
-Finaly, select the color scheme in the `Appearence` menu for you shell `Profiles`
+Finally, select the color scheme in the `Appearance` menu for your shell `Profiles`
 
-## Showcase
-
-<!-- TODO: screenshot -->
-
-![](assets/screenshot.png)

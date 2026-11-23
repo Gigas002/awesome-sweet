@@ -1,6 +1,7 @@
 # Sweet theme for micro
 # Based on EliverLara's Sweet VSCode theme
 
+# the background is left to the terminal; for sweet-vscode's, use:
 # color-link default "#FFFFFF,#1E1E2E"
 color-link comment "#66667A"
 

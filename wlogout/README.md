@@ -2,7 +2,7 @@
 
 Sweet theme for [wlogout](https://github.com/ArtsyMacaw/wlogout)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
@@ -10,7 +10,7 @@ There's none, it's a color scheme
 
 Copy theme file to your desired location, e.g. `~/.config/wlogout/themes/Sweet.css`
 
-Then, import your theme in config file, e.g. `~/.config/walogout/style.css`, adding the line: `@import "Sweet.css";`
+Then, import your theme in config file, e.g. `~/.config/wlogout/style.css`, adding the line: `@import "themes/Sweet.css";`
 
 Now you can use your sweet colors in a theme!
 

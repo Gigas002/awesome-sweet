@@ -1,8 +1,12 @@
-# Sweet-Micro
+# Sweet-micro
 
-This is WIP and currently just a copy of `catppuccin-mocha` with transparency
+Sweet theme for [micro](https://github.com/zyedidia/micro), with the syntax colors of [sweet-vscode](https://github.com/EliverLara/sweet-vscode)
 
-Instruction on how to use `Sweet` theme with [micro](https://github.com/zyedidia/micro)
+The background is left to the terminal, so a transparent terminal stays transparent
+
+## Requirements
+
+- a truecolor terminal (`COLORTERM=truecolor`)
 
 ## Installation
 
@@ -15,7 +19,5 @@ Copy the `Sweet.micro` file into `~/.config/micro/colorschemes/Sweet.micro`. The
 ```
 
 ## Showcase
-
-<!-- TODO: screenshot -->
 
 ![](assets/screenshot.png)
