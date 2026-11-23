@@ -4,7 +4,7 @@
 	# Default text color
 	#
 	# All text defaults to this color if not otherwise specified.
-	text-color = #c3c7c8
+	text-color = #c3c7d1
 
 	# Prompt text theme
 	prompt-color = #f9dc5c
@@ -19,7 +19,7 @@
 	# default-result-color = #FFFFFF
 
 	# Selection text
-	selection-color = #bd93f9
+	selection-color = #c74ded
 
 	# Matching portion of selection text
 	# selection-match-color = #00000000
@@ -60,7 +60,7 @@
 	height = 60%
 
 	# Window background color
-	background-color = #000000bb
+	background-color = #161925cc
 
 	# Width of the border outlines in pixels.
 	outline-width = 1

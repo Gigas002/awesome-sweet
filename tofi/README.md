@@ -2,7 +2,7 @@
 
 Sweet theme for [tofi](https://github.com/philj56/tofi)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
