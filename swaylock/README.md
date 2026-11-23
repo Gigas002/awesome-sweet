@@ -2,7 +2,7 @@
 
 Sweet theme for [swaylock](https://github.com/swaywm/swaylock)
 
-## Requriments
+## Requirements
 
 There's none, it's a color scheme
 
